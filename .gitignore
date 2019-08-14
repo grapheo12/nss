@@ -1,0 +1,5 @@
+nss/
+*.pyc
+.vscode
+.env
+node_modules/
