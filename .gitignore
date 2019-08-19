@@ -2,7 +2,8 @@ nss/
 *.pyc
 .vscode
 .env
-
+__pycache__/
+*.db
 
 nss-frontend/main/node_modules/
 nss-frontend/main/.pnp
