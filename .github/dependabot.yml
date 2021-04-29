@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/nss-backend"
+  schedule:
+    interval: daily
+    time: "23:30"
+  open-pull-requests-limit: 10
+  versioning-strategy: lockfile-only
+- package-ecosystem: npm
+  directory: "/nss-frontend/main"
+  schedule:
+    interval: daily
+    time: "23:30"
+  open-pull-requests-limit: 10
